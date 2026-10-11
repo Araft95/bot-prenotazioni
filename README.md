@@ -4,6 +4,14 @@ Bot Telegram che permette ai clienti di un'attività (barbiere, estetista, studi
 
 > 🇬🇧 **English:** Telegram booking bot for small businesses (barbers, beauty salons, studios). Customers book in a few taps, double bookings are impossible, and the owner gets instant notifications. Python · python-telegram-bot · SQLite.
 
+## Screenshot
+
+| Menu principale | Scelta del giorno |
+|:---:|:---:|
+| ![Menu principale](screenshots/1-menu.png) | ![Scelta del giorno](screenshots/2-giorno.png) |
+| **Scelta dell'orario** | **Conferma e avviso al titolare** |
+| ![Scelta dell'orario](screenshots/3-orario.png) | ![Conferma e avviso al titolare](screenshots/4-conferma.png) |
+
 ## Funzionalità
 
 - **Prenotazione guidata a pulsanti**: servizio → giorno → orario → conferma
@@ -20,7 +28,7 @@ Python 3.9+ · [python-telegram-bot](https://python-telegram-bot.org/) · SQLite
 ## Installazione
 
 ```bash
-git clone <url-del-repo>
+git clone https://github.com/Araft95/bot-prenotazioni.git
 cd bot-prenotazioni
 python3 -m venv venv
 ./venv/bin/pip install -r requirements.txt
